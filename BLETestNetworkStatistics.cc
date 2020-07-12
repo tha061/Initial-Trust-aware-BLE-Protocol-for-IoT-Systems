@@ -1,8 +1,8 @@
 /* -*- mode:c++ -*- ********************************************************
  * file:        BLETestNetworkStatistics.cc
- *
  * copyright:   (C) 2014 CWC, University of Oulu, Finland
  * Adding initial trust-aware implementation by Tham Nguyen, 2018.
+
 
  ***************************************************************************
  * BLE data and parameters structures
