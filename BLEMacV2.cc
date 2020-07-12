@@ -1,17 +1,8 @@
 /* -*- mode:c++ -*- ********************************************************
  // * file:        BLEMacV2.cc
- // *
- // * Created on:  08.3.2014
- // * Updated on:  02.8.2014
- // * author:      Konstantin Mikhaylov
- // *
+
  // * copyright:   (C) 2014 CWC, University of Oulu, Finland & Konstantin Mikhaylov
- // *
- // *              This program is free software; you can redistribute it
- // *              and/or modify it under the terms of the GNU General Public
- // *              License as published by the Free Software Foundation; either
- // *              version 2 of the License, or (at your option) any later
- // *              version.
+ 
  // ***************************************************************************
  // *NOTES/FEATURES:
   * 1)only ADV_DIRECT_IND_LDC are supported
@@ -42,7 +33,7 @@
   *
  // **************************************************************************/
 
-/* Added by Tham April 2018
+/* Added by Tham Nguyen, April 2018
  * Implement the ADV_IND packet to make sure that the advertising packet also contain data.
  * At the moment, the implementation only for the ADV_DIRECT_IND which does not contain the Host's data of the advertiser
  * Implement the scanning state: active scanning mode to use the SCAN_REQ and SCAN_RSP packets for more pair of interactions
@@ -69,6 +60,9 @@
  * normal pairing and authentication of BLE devices
  */
 //=================================================================================//
+
+
+
 #include "BLEMacV2.h"
 //#include "BLEstructs.h"
 #include "BLE_NwkToMac.h"
